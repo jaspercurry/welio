@@ -127,6 +127,11 @@ body {
       }
  }
 
+ .left {
+   text-align: left;
+   margin-bottom: 40px;
+ }
+
 
 
 
@@ -210,17 +215,29 @@ body {
 .dark-grey-div {
   width: 100%;
   background: $dark-grey;
+  padding-bottom: 50px;
   h3 {
     color: white;
+  }
+  h2  {
+    font-size: 36px;
+    &.sub {
+      text-align: center;
+      margin-bottom: 15px;
+      color: $light-grey;
+    }
+
   }
   p {
     color: $light-grey
   }
-  a:hover {
-    text-decoration: none;
-  }
-  .col-sm-3:hover {
-    opacity: 0.5;
+
+
+  .highlight {
+
+    padding-bottom: 15px;
+    background-color: rgba($light-grey, .07);
+    border-radius: 15px;
   }
 
   button {
@@ -305,12 +322,6 @@ body {
     text-align: left;
   }
 
-  a:hover {
-    text-decoration: none;
-  }
-  .col-sm-3:hover {
-    opacity: 0.5;
-  }
 
 
 
@@ -356,7 +367,14 @@ text-align: center;
 
 
 .grid-block {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+
+  a:hover {
+    text-decoration: none;
+  }
+  .col-sm-4:hover {
+    opacity: 0.5;
+  }
   i {
     display:block;
     text-align:center;
@@ -563,11 +581,11 @@ background-size: cover;
        color: $light-grey;
        text-align: left;
        &.right {
-         margin-right: -60px;
+         margin-right: -110px;
          text-align: right;
        }
        &.left {
-         margin-left: 42px;
+         margin-left: 92px;
          text-align: left;
 
        }
