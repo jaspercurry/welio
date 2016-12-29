@@ -32,7 +32,7 @@ html, body {
   line-height: 1.5;
 
   iframe {
-      text-align: center;
+
       height: 380px;
     }
 
@@ -145,6 +145,11 @@ body {
  .left {
    text-align: left;
    margin-bottom: 40px;
+
+   @media (max-width: $mobile){
+     margin-bottom: 0px;
+   }
+
  }
 
 
@@ -183,6 +188,10 @@ body {
   }
   img {
     margin-top: 30px;
+
+    @media (max-width: $mobile){
+      margin-top: 0px;
+    }
   }
 
   &.purple {
@@ -248,7 +257,13 @@ body {
   }
 
 
+
   .highlight {
+
+    @media (max-width: 768px){
+        border-radius: 0px;
+      }
+
 
     padding-bottom: 15px;
     background-color: rgba($light-grey, .07);
