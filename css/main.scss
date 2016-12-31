@@ -233,6 +233,49 @@ body {
 
 }
 
+.intro {
+  background-color: #365c82;
+  // background-image: url("../assets/renderings/front_angle.png");
+  // background-position: left;
+  // background-repeat: no-repeat;
+  // background-size: contain;
+  p {
+    color: $light-grey;
+    text-align: justify;
+    padding-left: 30px;
+    @media (max-width: $mobile){
+      text-align: justify;
+    }
+  }
+
+  .vert_cent {
+
+  }
+
+  h2 {
+    text-align: left;
+    color: white;
+    padding-left: 30px;
+    @media (max-width: $mobile){
+      text-align: center;
+    }
+  }
+  img {
+
+    padding-top: 50px;
+
+    padding-bottom: 50px;
+    max-width: 90%;
+    max-height: 100%;
+    @media (max-width: $mobile){
+      max-width: 100%;
+    }
+
+  }
+
+
+}
+
 
 
 
