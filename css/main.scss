@@ -245,12 +245,10 @@ body {
     padding-left: 30px;
     @media (max-width: $mobile){
       text-align: justify;
+      padding-left: 0px;
     }
   }
-
-  .vert_cent {
-
-  }
+  margin-bottom: -30px;
 
   h2 {
     text-align: left;
